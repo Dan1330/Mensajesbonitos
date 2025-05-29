@@ -12,7 +12,6 @@ body {
     text-align: center;
     overflow: hidden;
     position: relative;
-    padding: 0;
     }
 
     @keyframes gradientAnimation {
@@ -146,16 +145,18 @@ body {
 }
 
 .text-bubble {
-    position: absolute;
-    font-size: 18px;
-    font-family: 'cursive', sans-serif;
-    color: #d63384;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px 20px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    animation: floattext 8s ease-in-out forwards;
-    white-space: nowrap;
+  position: absolute;
+  font-size: 18px;
+  font-family: 'cursive', sans-serif;
+  color: #d63384;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  animation: floatText 8s ease-in-out forwards;
+  white-space: normal;
+  max-width: 80vw;
+  word-wrap: break-word;
 }
 
 @keyframes floatText {
@@ -165,36 +166,29 @@ body {
 }
 
 @media (max-width: 768px) {
-    body {
-        background-size: 100% 100%;
-        background-position: center top;
-    }
-    .message {font-size: 24px; padding: 20px; }
-    .charming-text { font-size: 16px; padding: 8px 16px; }
-    .flowers { font-size: 25px; }
-    .bubbles { font-size: 20px; }
+  body {
+    background-size: 100% 100%;
+    background-position: center top;
+  }
+  .message {
+    font-size: 24px;
+    padding: 20px;
+  }
+  .text-bubble {
+    font-size: 16px;
+    padding: 8px 14px;
+    max-width: 90vw;
+  }
 }
 
 @media (max-width: 480px) {
-    .message {
-        font-size: 20px;
-        padding: 15px;
-    }
-
-    .charming-text {
-        font-size: 14px;
-        padding: 6px 12px;
-        max-width: 90vw;
-    }
-
-    .text-bubble {
-        font-size: 14px;
-        padding: 8px 14px;
-        max-width: 90vw;
-    }
-
-    .flowers,
-    .bubbles {
-        font-size: 18px;
-    }
+  .message {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .text-bubble {
+    font-size: 14px;
+    padding: 6px 12px;
+    max-width: 95vw;
+  }
 }
