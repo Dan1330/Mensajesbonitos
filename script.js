@@ -62,7 +62,7 @@ function createTextBubble() {
 
     setTimeout(() => {
         bubble.remove();
-    }, 10000);
+    }, 5000);
 }
 
 setInterval(createTextBubble, 1000);
