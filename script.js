@@ -18,9 +18,10 @@ const messages = [
   "si lees esto te debo una follada que te tambaleen las piernas jijiji",
   "Eres la persona que me hace sentir completo",
   "aunque seas mala jugando te amo mucho",
-  "la puta madre",
-  "Me voy a bañar ahora vuelvo",
+  "Me debes un millón de masajes",
+  "Espero que tengas un lindo dia",
   "si lees esto me tienes que comprar un jueguito"
+  "espero que estes trabajando muy duro y feliz"
 ];
 
 function createTextBubble() {
