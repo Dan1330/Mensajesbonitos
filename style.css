@@ -5,9 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('https://www.proguides.com/guides/wp-content/uploads/2023/07/ReynaHeroTemp.png') no-repeat center center;
+    background: url('https://www.proguides.com/guides/wp-content/uploads/2023/07/ReynaHeroTemp.png');
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-color: #000;
     font-family: 'Arial', sans-serif;
     text-align: center;
     overflow: hidden;
