@@ -43,7 +43,7 @@ function createTextBubble() {
 
         if (rect.right > window.innerWidth) {
             const newleft = window.innerWidth - rect.width - 10;
-            bubble.setHTMLUnsafe.left = '${newleft}px';
+            bubble.style.left = '${newleft}px';
         }
 
         if (rect.bottom > window.innerHeight) {
